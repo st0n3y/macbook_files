@@ -1,0 +1,19 @@
+- Manually update contact forms on DEV and QA
+    Copy from Intro to Programming
+    Remove references to DEV from link URLs
+
+- Export pages from DEV where copy has changed
+    Give pages new author in DEV before exporting (sprint 9 release)
+
+- Switch Simple Pay Lite to live mode in QA
+    Copy settings from DEV
+
+- Manually update links on Course Dates page in QA
+
+- Get media files from DEV into QA
+    Log in to VPS in DEV and do a push
+
+
+
+- Publish release notes on dev.codeclan.com/documentation or Releases folder on Google Drive
+  e.g. What is Sprint and why are we using it? What is the process for adding or changing a payment? etc.

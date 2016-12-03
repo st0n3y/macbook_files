@@ -1,0 +1,4 @@
+1. Peruse error message
+2. Google it
+3. Rubber duck
+4. Use Pry -> (In terminal) gem install (gem name)

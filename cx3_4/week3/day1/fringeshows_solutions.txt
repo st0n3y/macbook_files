@@ -1,0 +1,61 @@
+Section 1
+
+(1) SELECT name FROM users;
+
+(2) SELECT name FROM shows WHERE price < 15.00;
+
+(3) INSERT INTO users ( name ) VALUES ( 'Val Gibson' );
+
+(4) SELECT id FROM users WHERE name = 'David MacKintosh';
+
+(5) INSERT INTO "shows_users" (show_id, user_id) VALUES (12, 23);
+
+(6) UPDATE users SET name = 'Valerie Gibson' WHERE id = 23;
+
+(7) DELETE FROM users WHERE name = 'Valerie Gibson';
+
+(8) DELETE FROM shows_users WHERE show.id = 1 AND user.id = 1;
+
+
+Section 2
+
+(1) SELECT name, price FROM shows ORDER BY price ASC;
+
+(2) SELECT avg(price) FROM shows;
+
+(3) SELECT min(price) FROM shows;
+
+(4) SELECT sum(price) FROM shows;
+
+(5) SELECT sum(price) FROM shows WHERE price < 20.00;
+
+(6) SELECT name, price FROM shows WHERE price IN( SELECT max(price) FROM shows);
+
+(7) SELECT name, price FROM shows ORDER BY price ASC LIMIT 2 OFFSET 1;
+
+(8) SELECT name FROM users WHERE name LIKE 'A%';
+
+(9) SELECT name FROM users WHERE name LIKE '%el%';
+
+
+Section 3
+
+(1) SELECT time FROM times INNER JOIN shows ON times.show_id = 8 WHERE shows.id = 8;
+
+(2) SELECT count(*) FROM shows_users WHERE show_id = 1;
+
+or,
+
+    SELECT count(show.id) FROM shows_users INNER JOIN shows ON shows_users.show.id = shows.id WHERE shows.name = 'Le Haggis';
+
+(3) SELECT * FROM users LEFT OUTER JOIN shows_users ON users.id = shows_users.user_id;
+
+or, 
+
+SELECT users.name, count( shows_users.show_id
+
+(4) SELECT users.name FROM users INNER JOIN shows_users ON users.id = shows_users.user_id WHERE shows_users.show_id IN( SELECT show_id FROM times WHERE time = '13:30');
+
+or,
+
+SELECT users.name FROM users INNER JOIN shows_users ON users.id = shows_users.user_id INNER JOIN times ON times.show_id = shows_users.show_id WHERE time = '13:30';

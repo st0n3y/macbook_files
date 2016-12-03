@@ -1,0 +1,5 @@
+#html element {
+  
+  attribute(e.g. color): value(e.g. white);
+  
+}

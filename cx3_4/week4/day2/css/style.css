@@ -1,0 +1,32 @@
+h1 {
+  font-size: 3em;
+  color: #56A902;
+  text-decoration: overline;
+  font-family: 'Lobster', cursive;
+  text-indent: 25px;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  background-color: #E71D36;
+  text-align: center;
+  margin: 15px;
+  border-radius: 50px;
+}
+
+body {
+  background-color: #FFFFF2;
+  background-image: url(http://www.cellar849.com/wp-content/uploads/486-1-grande-1-neapolitan_pizza.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 65%;
+}
+
+a {
+  display: inline-block;
+}
+
+a:hover {
+  color: white;
+}

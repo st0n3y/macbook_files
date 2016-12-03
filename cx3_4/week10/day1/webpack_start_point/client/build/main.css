@@ -1,0 +1,37 @@
+button {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 10px 30px;
+  font-size: 48px;
+  font-family: "Bitter",serif;
+  line-height: 1.8;
+  color: #fff;
+  background-color: #6496c8;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px #27496d;
+}
+
+button:focus {
+  outline: none
+}
+
+button:hover {
+  background-color: #417cb8
+}
+
+button:active {
+  background-color: #417cb8;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
+}
+
+h1 {
+  font-family: 'Mitr', sans-serif;
+  font-size: 3em;
+  color: #6496c8;
+}
+
+p {
+  font-size: 1.5em;
+}

@@ -1,0 +1,4 @@
+- Add location selection to application form.
+- Reformat course dates page into two columns to accomodate Glasgow.
+- Insert funding options panel on cost page for 16-week course.
+- Make 'Register for updates' email box a floating div for mobile.

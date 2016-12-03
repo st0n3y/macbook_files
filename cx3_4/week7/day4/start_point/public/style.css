@@ -1,0 +1,12 @@
+#blank {
+  height: 20px;
+  width: 80px;
+  background-color: red;
+  /*position: absolute;*/
+  margin-left: 1170px;
+  margin-top: 500px;
+}
+
+#pieChart {
+  /*position: relative;*/
+}

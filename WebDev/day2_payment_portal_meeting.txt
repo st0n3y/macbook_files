@@ -1,0 +1,19 @@
+////Financial support////
+
+Require disclaimer. CodeClan cannot promote or act as financial broker. See Makers Academy for possible reference.
+
+Funding only on offer for 16 week course.
+
+Replace installment payment table with brief bit of text.
+
+Edaid: Crowdfunding. Install a widget on site.
+
+PCDL: Requires licence.
+
+////Payment options////
+
+- Paypal already in use.
+
+- Stripe is simple to integrate with Wordpress and Xero (accounting software used by CodeClan).
+
+- Point-of-sale authentication would require bank approval (Santander).

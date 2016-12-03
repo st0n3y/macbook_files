@@ -1,0 +1,24 @@
+psql => start conversation
+
+\q => quit command line
+
+cmd + / => comment
+
+\c => connect to DB
+
+\d+ => list tables
+
+INSERT INTO --table => create data
+
+SELECT * FROM --table 
+SELECT --column1, --column2 FROM --table => read data
+
+UPDATE --table SET --column WHERE --condition AND --condition => update data
+
+DELETE FROM --table WHERE --condition => delete data
+
+SELECT --column FROM --table WHERE --column IN( --values );
+
+SELECT --column FROM --table WHERE --column IN( SELECT --column FROM --table WHERE --column = --value ); => nested select
+
+SELECT --table.--column, --table.--column FROM --table INNER JOIN --table ON --table.--column = --table.--column; => read data cross-referencing multiple tables

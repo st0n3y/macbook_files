@@ -1,0 +1,26 @@
+Objects and types
+
+String
+Fixnum
+TrueClass
+FlaseClass
+Date
+Array
+Hash
+etc.
+
+
+Conditionals
+
+if/else/elsif
+Ternary:  #condition ? true : false
+Case statement
+Guard:  #expression if #condition
+
+
+Loops
+
+loop
+for
+until
+while

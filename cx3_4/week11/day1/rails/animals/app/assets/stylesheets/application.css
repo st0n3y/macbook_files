@@ -1,0 +1,51 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+h2 {
+  font-size: 5em;
+  font-family: 'Galada', cursive;
+  color: white;
+}
+
+#header {
+  width: 90%;
+  height: 200px;
+  background-image: url("http://cdn.playbuzz.com/cdn/2ca37509-2860-43de-bbf9-21251a587334/aefb841d-ea10-4cfc-8d35-f6bb12b17610.jpg");
+  background-repeat: none;
+  background-size: cover;
+  text-align: left;
+  padding-top: 2px;
+  padding-left: 125px;
+}
+
+li {
+  font-size: 2em;
+/*  animation: shake 2s infinite;
+  animation-direction: alternate;*/
+}
+
+/*@keyframes shake {
+  0% {
+    transform: skewY(20deg);
+  }
+  100% {
+    transform: skewY(-20deg);
+  }
+}*/
+
+#main {
+  
+}

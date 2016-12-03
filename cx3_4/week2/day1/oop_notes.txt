@@ -1,0 +1,4 @@
+Classes = blueprint, template
+
+Objects = instances of classes
+

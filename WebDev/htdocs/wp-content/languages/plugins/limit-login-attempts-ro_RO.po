@@ -1,0 +1,265 @@
+# Translation of Stable (latest release) in Romanian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-03-08 09:30:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/1.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: limit-login-attempts.php:522
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d oră"
+msgstr[1] "%d ore"
+msgstr[2] "%d de ore"
+
+#: limit-login-attempts.php:528
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minut"
+msgstr[1] "%d minute"
+msgstr[2] "%d de minute"
+
+#: limit-login-attempts.php:534
+msgid "[%s] Failed login attempts from whitelisted IP"
+msgstr "[%s] Încercările de autentificare cu IP-uri din lista albă au eșuat"
+
+#: limit-login-attempts.php:538
+msgid "[%s] Too many failed login attempts"
+msgstr "[%s] Prea multe încercări de autentificare au eșuat"
+
+#: limit-login-attempts.php:543
+msgid "%d failed login attempts (%d lockout(s)) from IP: %s"
+msgstr "Au eșuat %d încercări de autentificare (%d blocări) de la IP-ul: %s"
+
+#: limit-login-attempts.php:547
+msgid "Last user attempted: %s"
+msgstr "Ultima încercare a utilizatorului: %s"
+
+#: limit-login-attempts.php:551
+msgid "IP was NOT blocked because of external whitelist."
+msgstr "IP-ul NU a fost blocat din cauza listei albe externe"
+
+#: limit-login-attempts.php:553
+msgid "IP was blocked for %s"
+msgstr "IP-ul a fost blocat pentru %s."
+
+#: limit-login-attempts.php:615
+msgid "<strong>ERROR</strong>: Too many failed login attempts."
+msgstr "<strong>EROARE</strong>: Prea multe încercări de autentificare au eșuat."
+
+#: limit-login-attempts.php:619
+msgid "Please try again later."
+msgstr "Te rog încearcă din nou mai târziu."
+
+#: limit-login-attempts.php:626
+msgid "Please try again in %d hour."
+msgid_plural "Please try again in %d hours."
+msgstr[0] "Te rog încearcă din nou după %d oră."
+msgstr[1] "Te rog încearcă din nou în %d ore."
+msgstr[2] "Te rog încearcă din nou în %d de ore."
+
+#: limit-login-attempts.php:628
+msgid "Please try again in %d minute."
+msgid_plural "Please try again in %d minutes."
+msgstr[0] "Te rog încearcă din nou după %d minut."
+msgstr[1] "Te rog încearcă din nou în %d minute."
+msgstr[2] "Te rog încearcă din nou în %d de minute."
+
+#: limit-login-attempts.php:657
+msgid "<strong>%d</strong> attempt remaining."
+msgid_plural "<strong>%d</strong> attempts remaining."
+msgstr[0] "<strong>%d</strong> încercare rămasă."
+msgstr[1] "<strong>%d</strong> încercări rămase."
+msgstr[2] "<strong>%d</strong> de încercări rămase."
+
+#: limit-login-attempts.php:728
+msgid "<strong>ERROR</strong>: Incorrect username or password."
+msgstr "<strong>EROARE</strong>: Nume utilizator incorect sau parolă incorectă."
+
+#: limit-login-attempts.php:896
+msgctxt "Internet address"
+msgid "IP"
+msgstr "IP"
+
+#: limit-login-attempts.php:896
+msgid "Tried to log in as"
+msgstr "Ai încercat să te autentifici ca"
+
+#: limit-login-attempts.php:901
+msgid "%d lockout"
+msgid_plural "%d lockouts"
+msgstr[0] "%d blocare"
+msgstr[1] "%d blocări"
+msgstr[2] "%d de blocări"
+
+#: limit-login-attempts.php:930
+msgid "Cleared IP log"
+msgstr "S-a golit jurnalul IP"
+
+#: limit-login-attempts.php:938
+msgid "Reset lockout count"
+msgstr "Resetare număr blocări"
+
+#: limit-login-attempts.php:946
+msgid "Cleared current lockouts"
+msgstr "Blocările curente au fost eliminate"
+
+#: limit-login-attempts.php:975
+msgid "Options changed"
+msgstr "Opțiunile s-au modificat"
+
+#: limit-login-attempts.php:993
+msgid "It appears the site is reached directly (from your IP: %s)"
+msgstr "Se pare că situl este accesat direct (de la IP-ul tău: %s)"
+
+#: limit-login-attempts.php:995
+msgid "It appears the site is reached through a proxy server (proxy IP: %s, your IP: %s)"
+msgstr "Se pare că situl este accesat printr-un server proxy (IP proxy: %s, IP-ul tău: %s)"
+
+#: limit-login-attempts.php:1003
+msgid "<strong>Current setting appears to be invalid</strong>. Please make sure it is correct. Further information can be found <a href=\"%s\" title=\"FAQ\">here</a>"
+msgstr "<strong>Setarea curentă pare a fi invalidă</strong>. Te rog asigură-te că este corectă. Informații suplimentare pot fi găsite <a href=\"%s\" title=\"FAQ\">aici</a>"
+
+#: limit-login-attempts.php:1011
+msgid "Limit Login Attempts Settings"
+msgstr "Setări pentru limita încercărilor de autentificare"
+
+#: limit-login-attempts.php:1012
+msgid "Statistics"
+msgstr "Statistici"
+
+#: limit-login-attempts.php:1017
+msgid "Total lockouts"
+msgstr "Total blocări"
+
+#: limit-login-attempts.php:1020
+msgid "Reset Counter"
+msgstr "Resetare contor"
+
+#: limit-login-attempts.php:1021
+msgid "%d lockout since last reset"
+msgid_plural "%d lockouts since last reset"
+msgstr[0] "%d blocare de la ultima resetare"
+msgstr[1] "%d blocări de la ultima resetare"
+msgstr[2] "%d de blocări de la ultima resetare"
+
+#: limit-login-attempts.php:1022
+msgid "No lockouts yet"
+msgstr "Nu există blocări până acum"
+
+#: limit-login-attempts.php:1027
+msgid "Active lockouts"
+msgstr "Blocări active"
+
+#: limit-login-attempts.php:1029
+msgid "Restore Lockouts"
+msgstr "Restaurare blocări"
+
+#: limit-login-attempts.php:1030
+msgid "%d IP is currently blocked from trying to log in"
+msgstr "IP-ul %d este în prezent blocat pentru încercare de autentificare"
+
+#: limit-login-attempts.php:1036
+msgid "Options"
+msgstr "Opțiuni"
+
+#: limit-login-attempts.php:1041
+msgid "Lockout"
+msgstr "Blocare"
+
+#: limit-login-attempts.php:1043
+msgid "allowed retries"
+msgstr "reîncercări permise"
+
+#: limit-login-attempts.php:1044
+msgid "minutes lockout"
+msgstr "minute de blocare"
+
+#: limit-login-attempts.php:1045
+msgid "lockouts increase lockout time to"
+msgstr "blocările măresc timpul de blocare pentru"
+
+#: limit-login-attempts.php:1045
+msgid "hours"
+msgstr "ore"
+
+#: limit-login-attempts.php:1046
+msgid "hours until retries are reset"
+msgstr "orele până când sunt resetate reîncercările"
+
+#: limit-login-attempts.php:1050
+msgid "Site connection"
+msgstr "Conexiune sit"
+
+#: limit-login-attempts.php:1056
+msgid "Direct connection"
+msgstr "Conexiune directă"
+
+#: limit-login-attempts.php:1061
+msgid "From behind a reversy proxy"
+msgstr "Din spatele unui conexiuni proxy inversă"
+
+#: limit-login-attempts.php:1067
+msgid "Handle cookie login"
+msgstr "Logare tip cookie"
+
+#: limit-login-attempts.php:1069
+msgid "Yes"
+msgstr "Da"
+
+#: limit-login-attempts.php:1069
+msgid "No"
+msgstr "Nu"
+
+#: limit-login-attempts.php:1073
+msgid "Notify on lockout"
+msgstr "Notifică o blocare"
+
+#: limit-login-attempts.php:1075
+msgid "Log IP"
+msgstr "IP jurnal"
+
+#: limit-login-attempts.php:1076
+msgid "Email to admin after"
+msgstr "Trimite email la admin după"
+
+#: limit-login-attempts.php:1076
+msgid "lockouts"
+msgstr "blocări"
+
+#: limit-login-attempts.php:1081
+msgid "Change Options"
+msgstr "Schimbă opțiunile"
+
+#: limit-login-attempts.php:1089
+msgid "Lockout log"
+msgstr "Jurnal blocare"
+
+#: limit-login-attempts.php:1094
+msgid "Clear Log"
+msgstr "Golește jurnal"
+
+#. Plugin Name of the plugin/theme
+msgid "Limit Login Attempts"
+msgstr "Limită încercări de autentificare"
+
+#. Plugin URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se/limit-login-attempts"
+msgstr "http://devel.kostdoktorn.se/limit-login-attempts"
+
+#. Description of the plugin/theme
+msgid "Limit rate of login attempts, including by way of cookies, for each IP."
+msgstr "Rata limită a încercărilor de autentificare, inclusiv prin intermediul cookies, pentru fiecare IP."
+
+#. Author of the plugin/theme
+msgid "Johan Eenfeldt"
+msgstr "Johan Eenfeldt"
+
+#. Author URI of the plugin/theme
+msgid "http://devel.kostdoktorn.se"
+msgstr "http://devel.kostdoktorn.se"

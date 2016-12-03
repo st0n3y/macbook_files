@@ -1,0 +1,27 @@
+<h2>Add Rental</h2>
+
+<form action="/rentals" method="post">
+
+<label for="book_id">Book:</label>
+<select name="book_id"> <!-- "book_id" corresponds to "book_id" in Sinatra's params hash. -->
+  
+  <% @books.each do |book| %>
+
+  <option value="<%= book.id %>"><%= book.title %></option>
+  <% end %>
+
+</select>
+<label for="member_id">Member:</label> <!-- The value chosen in the select (drop-down menu) will be returned to the "member_id" element in the options hash. -->
+<select name="member_id">
+    
+  <% @members.each do |member| %>
+
+  <option value="<%= member.id %>"><%= member.name %></option>
+  <% end %>
+</select>
+
+<input type="submit" value="Create Rental">
+
+</form>
+
+<a href="/">Back</a>

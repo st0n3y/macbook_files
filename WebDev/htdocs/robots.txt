@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /cgi-bin/
+Disallow: /documentation/
+Disallow: /error_log
+Disallow: /include/
+Sitemap: http://codeclan.com/sitemap_index.xml

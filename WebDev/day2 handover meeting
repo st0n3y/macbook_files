@@ -1,0 +1,28 @@
+qa.codeclan.com/maintenance
+
+Home page - Top two containers are for the banner
+          - Bottom cluster manages new post carousel
+
+There are separate levels of styling Text widgets and container
+
+SiteOrigin Editor 
+
+Should use one CSS class per container
+
+'gdlr' tag in CSS is legacy of original build in Goodlayers.
+
+To add media - Media Library -> Add New
+
+When adding an image, delete 'https://qa.codeclan.com' from the src tag.
+
+If a new parent menu item is created, it will have a different CSS id.
+
+PHP scripts reside in:
+~/public_html/wp-content/themes/flawless-child
+~/public_html/wp-content/themes/flawless-v1-17
+
+Ask team before editing CSS and save and close file before anybody else touches it.
+
+Keep copies of htdocs whenever making changes.
+
+Don’t use the Preview button.

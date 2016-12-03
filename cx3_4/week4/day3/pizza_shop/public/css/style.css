@@ -1,0 +1,25 @@
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: #bfe4f6;
+  text-shadow: 0 0 5px #bfe4f6, 0 0 10px #bfe4f6, 0 0 20px #bfe4f6, 0 0 30px #2db9fd, 0 0 40px #2db9fd, 0 0 55px #2db9fd, 0 0 75px #2db9fd;
+  }
+
+p {
+  font-family: sans-serif; 
+  color: red;
+}
+
+body {
+margin : 0;
+padding : 0;
+background-color : #0D0C0D;
+background-image : url(http://www.wallmuralwallpapers.com/ekmps/shops/rdshop2/images/1-x-bw-new-york-skyline-manhattan-night-feature-wall-mural-decor-photo-wallpapers-art-220-[3]-1188-p.jpg);
+background-repeat : repeat-x;
+background-position : 7px 0;
+color : white;
+font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size : 10px;
+}

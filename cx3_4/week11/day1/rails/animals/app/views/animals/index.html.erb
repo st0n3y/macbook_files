@@ -1,0 +1,11 @@
+<div id="header">
+<h2>Animals</h2>
+</div>
+
+<div id="main">
+<ul>
+<% @animals.each do |animal| %>
+  <li> <%= animal[:name] %> </li>
+<% end %>
+</ul>
+</div>

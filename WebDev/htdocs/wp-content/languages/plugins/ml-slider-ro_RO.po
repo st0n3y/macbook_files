@@ -1,0 +1,677 @@
+# Translation of Stable (latest release) in Romanian
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-13 11:30:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: ml-slider.php:1606
+msgid "Opacity"
+msgstr "Opacitate"
+
+#: ml-slider.php:1608
+msgid "Opacity of title and navigation"
+msgstr "Opacitatea titlului și a navigației"
+
+#: ml-slider.php:1619
+msgid "Caption speed"
+msgstr "Viteză text asociat"
+
+#: ml-slider.php:1621
+msgid "Set the fade in speed of the caption"
+msgstr "Setează vitezei de apariție a textului asociat"
+
+#: ml-slider.php:1628
+msgid "Developer options"
+msgstr "Opțiuni pentru dezvoltatori"
+
+#: ml-slider.php:1633
+msgid "CSS classes"
+msgstr "Clase CSS"
+
+#: ml-slider.php:1635
+msgid "Specify any custom CSS Classes you would like to be added to the slider wrapper"
+msgstr "Specifică orice clase CSS personalizate ce vrei să fie adăugate la containerul caruselului"
+
+#: ml-slider.php:1641
+msgid "Print CSS"
+msgstr "Imprimare CSS"
+
+#: ml-slider.php:1644
+msgid "Uncheck this is you would like to include your own CSS"
+msgstr "Debifează asta dacă vrei să-ți incluzi propriul CSS"
+
+#: ml-slider.php:1649
+msgid "Print JS"
+msgstr "Imprimare JS"
+
+#: ml-slider.php:1652
+msgid "Uncheck this is you would like to include your own Javascript"
+msgstr "Debifează asta dacă vrei să-ți incluzi propriul Javascript"
+
+#: ml-slider.php:1657
+msgid "No conflict mode"
+msgstr "Fără mod conflict"
+
+#: ml-slider.php:1660
+msgid "Delay adding the flexslider class to the slideshow"
+msgstr "Întârzie adăugarea clasei flexslider la carusel"
+
+#: ml-slider.php:1674
+msgid "Usage"
+msgstr "Utilizare"
+
+#: ml-slider.php:1677
+msgid "Shortcode"
+msgstr "Scurtcod"
+
+#: ml-slider.php:1678
+msgid "Template Include"
+msgstr "Includere pentru șablon"
+
+#: ml-slider.php:1682
+msgid "Copy & paste the shortcode directly into any WordPress post or page."
+msgstr "Copiază și lipește scurtcodul direct în orice articol sau pagină WordPress."
+
+#: ml-slider.php:1685
+msgid "Copy & paste this code into a template file to include the slideshow within your theme."
+msgstr "Copiază și lipește acest cod într-un fișier șablon pentru a include caruselul în tema ta."
+
+#: ml-slider.php:1721
+msgid "Delete Slider"
+msgstr "Ștergere carusel"
+
+#: ml-slider.php:1747
+msgid "Select slideshow to insert into post"
+msgstr "Selectează caruselul de inserat în articol"
+
+#: ml-slider.php:1750
+msgid "Add slider"
+msgstr "Adăugare carusel"
+
+#: ml-slider.php:1784
+msgid "Insert Meta Slider"
+msgstr "Inserare meta carusel"
+
+#: ml-slider.php:1786
+msgid "Choose slideshow"
+msgstr "Alege carusel"
+
+#: ml-slider.php:1791
+msgid "Insert slideshow"
+msgstr "Inserare carusel"
+
+#: ml-slider.php:1810
+msgid "Go Pro"
+msgstr "Treci la Pro"
+
+#: ml-slider.php:1834
+msgid "Upgrade to Pro $19"
+msgstr "Actualizare la Pro $19"
+
+#. #-#-#-#-#  tmp-ml-slider.pot (Meta Slider 3.3.7)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-ml-slider.pot (Meta Slider 3.3.7)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://www.metaslider.com"
+msgstr "https://www.metaslider.com"
+
+#. Description of the plugin/theme
+msgid "Easy to use slideshow plugin. Create SEO optimised responsive slideshows with Nivo Slider, Flex Slider, Coin Slider and Responsive Slides."
+msgstr "Modul de carusel ușor de utilizat. Creezi carusele responsive, optimizate SEO, cu Nivo Slider, Flex Slider, Coin Slider și Responsive Slides."
+
+#. Author of the plugin/theme
+msgid "Matcha Labs"
+msgstr "Matcha Labs"
+
+#. #-#-#-#-#  tmp-ml-slider.pot (Meta Slider 3.3.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/metaslider.widget.class.php:19
+msgid "Meta Slider"
+msgstr "Meta carusel"
+
+#: inc/metaslider.widget.class.php:109
+msgid "Title:"
+msgstr "Titlu:"
+
+#: inc/metaslider.widget.class.php:112
+msgid "Select Slider:"
+msgstr "Selectare carusel:"
+
+#: inc/metaslider.widget.class.php:122 ml-slider.php:1793
+msgid "No slideshows found"
+msgstr "Nu s-a găsit niciun carusel"
+
+#: inc/slide/metaslide.class.php:76 inc/slide/metaslide.image.class.php:32
+msgid "Security check failed. Refresh page and try again."
+msgstr "Verificarea de securitate a eșuat. Reîncarcă pagina și încearcă din nou."
+
+#: inc/slide/metaslide.class.php:121
+msgid "File copy failed. Please check upload directory permissions."
+msgstr "Copierea fișierului a eșuat. Te rog să verifici permisiunile de încărcare ale directorului."
+
+#: inc/slide/metaslide.class.php:286
+msgid "Delete slide"
+msgstr "Ștergere diapozitiv"
+
+#: inc/slide/metaslide.image.class.php:48
+msgid "Failed to add slide. Slide already exists in slideshow."
+msgstr "Adăugarea diapozitivului a eșuat. Diapozitivul există deja în carusel."
+
+#: inc/slide/metaslide.image.class.php:52
+msgid "Failed to add slide. Slide is not of type 'image'."
+msgstr "Adăugarea diapozitivului a eșuat. Diapozitivul nu este de tipul 'imagine'."
+
+#: inc/slide/metaslide.image.class.php:56
+msgid "Failed to add slide. Slide is not an image."
+msgstr "Adăugarea diapozitivului a eșuat. Diapozitivul nu este o imagine."
+
+#: inc/slide/metaslide.image.class.php:120
+msgid "Image Slide"
+msgstr "Diapozitiv imagine"
+
+#: inc/slide/metaslide.image.class.php:155 ml-slider.php:472
+msgid "Caption"
+msgstr "Text asociat"
+
+#: inc/slide/metaslide.image.class.php:156 ml-slider.php:471
+msgid "URL"
+msgstr "URL"
+
+#: inc/slide/metaslide.image.class.php:158 ml-slider.php:473
+msgid "New Window"
+msgstr "Fereastră nouă"
+
+#: inc/slide/metaslide.image.class.php:162
+msgid "Warning: Image data does not exist. Please re-upload the image."
+msgstr "Avertizare: datele imaginii nu există. Te rog să reîncarci imaginea."
+
+#: inc/slide/metaslide.image.class.php:167
+msgid "Image Title Text"
+msgstr "Text titlu imagine"
+
+#: inc/slide/metaslide.image.class.php:169
+msgid "Image Alt Text"
+msgstr "Text alternativ pentru imagine"
+
+#: inc/slide/metaslide.image.class.php:174
+msgid "General"
+msgstr "General"
+
+#: inc/slide/metaslide.image.class.php:178
+msgid "SEO"
+msgstr "SEO"
+
+#: inc/slide/metaslide.image.class.php:191
+msgid "Crop Position"
+msgstr "Poziție decupare"
+
+#: inc/slide/metaslide.image.class.php:194
+msgid "Top Left"
+msgstr "Stânga sus"
+
+#: inc/slide/metaslide.image.class.php:195
+msgid "Top Center"
+msgstr "Centru sus"
+
+#: inc/slide/metaslide.image.class.php:196
+msgid "Top Right"
+msgstr "Dreapta sus"
+
+#: inc/slide/metaslide.image.class.php:197
+msgid "Center Left"
+msgstr "Centru stânga"
+
+#: inc/slide/metaslide.image.class.php:198
+msgid "Center Center"
+msgstr "Centrat (pe centru)"
+
+#: inc/slide/metaslide.image.class.php:199
+msgid "Center Right"
+msgstr "Centru dreapta"
+
+#: inc/slide/metaslide.image.class.php:200
+msgid "Bottom Left"
+msgstr "Jos stânga"
+
+#: inc/slide/metaslide.image.class.php:201
+msgid "Bottom Center"
+msgstr "Jos centru"
+
+#: inc/slide/metaslide.image.class.php:202
+msgid "Bottom Right"
+msgstr "Jos dreapta"
+
+#: inc/slide/metaslide.image.class.php:207
+msgid "Crop"
+msgstr "Decupare"
+
+#: ml-slider.php:284 ml-slider.php:285
+msgid "Go Pro!"
+msgstr "Treci la Pro!"
+
+#: ml-slider.php:418
+msgid "Documentation"
+msgstr "Documentație"
+
+#: ml-slider.php:474
+msgid "Are you sure?"
+msgstr "Sigur?"
+
+#: ml-slider.php:476
+msgid "Select replacement image"
+msgstr "Selectează imaginea pentru înlocuire"
+
+#: ml-slider.php:481
+msgid "Caution: This setting is for advanced developers only. If you're unsure, leave it checked."
+msgstr "Atenție: Această setare este doar pentru dezvoltatorii avansați. Dacă nu știi, lasă bifat."
+
+#: ml-slider.php:544
+msgid "Image"
+msgstr "Imagine"
+
+#: ml-slider.php:545
+msgid "Add to slider"
+msgstr "Adaugă la carusel"
+
+#: ml-slider.php:815
+msgid "New Slider"
+msgstr "Carusel nou"
+
+#: ml-slider.php:1106
+msgid "Switch to Dropdown view"
+msgstr "Comută la vizualizarea desfășurată"
+
+#: ml-slider.php:1106
+msgid "Dropdown"
+msgstr "Listă derulantă"
+
+#: ml-slider.php:1127
+msgid "New slideshow created. Click 'Add Slide' to get started!"
+msgstr "S-a creat un carusel nou. Dă clic pe 'Adaugă diapozitiv' pentru a începe!"
+
+#: ml-slider.php:1131
+msgid "Switch to Tab view"
+msgstr "Comută vizualizarea în file"
+
+#: ml-slider.php:1131
+msgid "Tabs"
+msgstr "File"
+
+#: ml-slider.php:1133
+msgid "Select Slider"
+msgstr "Selectare carusel"
+
+#: ml-slider.php:1152
+msgid "or"
+msgstr "sau"
+
+#: ml-slider.php:1153
+msgid "Add New Slideshow"
+msgstr "Adaugă carusel nou"
+
+#: ml-slider.php:1159
+msgid "Create your first slideshow"
+msgstr "Crează-ți primul tău carusel"
+
+#: ml-slider.php:1235
+msgid "Slides"
+msgstr "Diapozitive"
+
+#: ml-slider.php:1239 ml-slider.php:1240
+msgid "Add Slide"
+msgstr "Adaugă diapozitiv"
+
+#: ml-slider.php:1263
+msgid "Save"
+msgstr "Salvează"
+
+#: ml-slider.php:1264
+msgid "Save & Preview"
+msgstr "Salvare și previzualizare"
+
+#: ml-slider.php:1277
+msgid "Flex Slider"
+msgstr "Flex Slider (Carusel flexibil)"
+
+#: ml-slider.php:1278
+msgid "R. Slides"
+msgstr "Diapozitive responsive"
+
+#: ml-slider.php:1279
+msgid "Nivo Slider"
+msgstr "Nivo Slider"
+
+#: ml-slider.php:1280
+msgid "Coin Slider"
+msgstr "Coin Slider"
+
+#: ml-slider.php:1291 ml-slider.php:1530
+msgid "Width"
+msgstr "Lățime"
+
+#: ml-slider.php:1293
+msgid "Slideshow width"
+msgstr "Lățime carusel"
+
+#: ml-slider.php:1294 ml-slider.php:1307 ml-slider.php:1457
+msgid "px"
+msgstr "px"
+
+#: ml-slider.php:1304 ml-slider.php:1543
+msgid "Height"
+msgstr "Înălțime"
+
+#: ml-slider.php:1306
+msgid "Slideshow height"
+msgstr "Înălțime carusel"
+
+#: ml-slider.php:1313
+msgid "Effect"
+msgstr "Efect"
+
+#: ml-slider.php:1315
+msgid "Slide transition effect"
+msgstr "Efect de tranziție diapozitiv"
+
+#: ml-slider.php:1317 ml-slider.php:1462
+msgid "Random"
+msgstr "Aleatoriu"
+
+#: ml-slider.php:1318
+msgid "Swirl"
+msgstr "Vârtej"
+
+#: ml-slider.php:1319
+msgid "Rain"
+msgstr "Curgător"
+
+#: ml-slider.php:1320
+msgid "Straight"
+msgstr "Liniar"
+
+#: ml-slider.php:1321
+msgid "Slide Down"
+msgstr "Glisare în jos"
+
+#: ml-slider.php:1322
+msgid "Slice Up"
+msgstr "Tăiere felii"
+
+#: ml-slider.php:1323
+msgid "Slide Up Left"
+msgstr "Glisare în sus stânga"
+
+#: ml-slider.php:1324
+msgid "Slice Up Down"
+msgstr "Felii sus-jos"
+
+#: ml-slider.php:1325
+msgid "Slide Up Down Left"
+msgstr "Glisare sus-jos stânga"
+
+#: ml-slider.php:1326
+msgid "Fold"
+msgstr "Împăturat"
+
+#: ml-slider.php:1327
+msgid "Fade"
+msgstr "Dispariție"
+
+#: ml-slider.php:1328
+msgid "Slide In Right"
+msgstr "Glisare din dreapta"
+
+#: ml-slider.php:1329
+msgid "Slide In Left"
+msgstr "Glisare din stânga"
+
+#: ml-slider.php:1330
+msgid "Box Random"
+msgstr "Carouri aleatoare"
+
+#: ml-slider.php:1331
+msgid "Box Rain"
+msgstr "Ploaie de carouri"
+
+#: ml-slider.php:1332
+msgid "Box Rain Reverse"
+msgstr "Ploaie inversă de carouri"
+
+#: ml-slider.php:1333
+msgid "Box Rain Grow Reverse"
+msgstr "Ploaie de carouri crescând invers"
+
+#: ml-slider.php:1334
+msgid "Slide"
+msgstr "Diapozitiv"
+
+#: ml-slider.php:1341
+msgid "Theme"
+msgstr "Temă"
+
+#: ml-slider.php:1343
+msgid "Slideshow theme"
+msgstr "Temă carusel"
+
+#: ml-slider.php:1345
+msgid "Default"
+msgstr "Implicit"
+
+#: ml-slider.php:1346
+msgid "Dark (Nivo)"
+msgstr "Întunecat (Nivo)"
+
+#: ml-slider.php:1347
+msgid "Light (Nivo)"
+msgstr "Deschis (Nivo)"
+
+#: ml-slider.php:1348
+msgid "Bar (Nivo)"
+msgstr "Bară (Nivo)"
+
+#: ml-slider.php:1354
+msgid "Arrows"
+msgstr "Săgeți"
+
+#: ml-slider.php:1357
+msgid "Show the previous/next arrows"
+msgstr "Afișează săgețile anterior/următor"
+
+#: ml-slider.php:1362
+msgid "Navigation"
+msgstr "Navigare"
+
+#: ml-slider.php:1365
+msgid "Show the slide navigation bullets"
+msgstr "Arată linia de navigare cu puncte"
+
+#: ml-slider.php:1367
+msgid "Hidden"
+msgstr "Ascuns"
+
+#: ml-slider.php:1368
+msgid "Dots"
+msgstr "Buline"
+
+#: ml-slider.php:1379
+msgid "Title"
+msgstr "Titlu"
+
+#: ml-slider.php:1380
+msgid "Slideshow title"
+msgstr "Titlu carusel"
+
+#: ml-slider.php:1394
+msgid "Advanced Settings"
+msgstr "Setări avansate"
+
+#: ml-slider.php:1403
+msgid "Stretch"
+msgstr "Întindere"
+
+#: ml-slider.php:1405
+msgid "100% wide output"
+msgstr "Lățime pe 100%"
+
+#: ml-slider.php:1407
+msgid "Stretch the slideshow output to fill it's parent container"
+msgstr "Întinde caruselul pentru a umple containerul părinte"
+
+#: ml-slider.php:1412
+msgid "Center align"
+msgstr "Aliniere la centru"
+
+#: ml-slider.php:1415
+msgid "Center align the slideshow"
+msgstr "Carusel aliniat la centru"
+
+#: ml-slider.php:1420
+msgid "Auto play"
+msgstr "Redare automată"
+
+#: ml-slider.php:1423
+msgid "Transition between slides automatically"
+msgstr "Tranziție automată între diapozitive"
+
+#: ml-slider.php:1428
+msgid "Image Crop"
+msgstr "Decupare imagine"
+
+#: ml-slider.php:1432
+msgid "Smart Crop"
+msgstr "Decupare inteligentă"
+
+#: ml-slider.php:1433
+msgid "Standard"
+msgstr "Standard"
+
+#: ml-slider.php:1434
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: ml-slider.php:1435
+msgid "Disabled (Smart Pad)"
+msgstr "Dezactivare (Smart Pad)"
+
+#: ml-slider.php:1437
+msgid "Smart Crop ensures your responsive slides are cropped to a ratio that results in a consistent slideshow size"
+msgstr "Decuparea inteligentă asigură o decupare a diapozitivelor tale responsive la un raport care să asigure o mărime consistentă a caruselului"
+
+#: ml-slider.php:1442
+msgid "Carousel mode"
+msgstr "Mod carusel"
+
+#: ml-slider.php:1445
+msgid "Display multiple slides at once. Slideshow output will be 100% wide."
+msgstr "Afișează mai multe diapozitive simultan. Caruselul va ocupa 100% lățimea."
+
+#: ml-slider.php:1453
+msgid "Carousel margin"
+msgstr "Margine carusel"
+
+#: ml-slider.php:1456
+msgid "Pixel margin between slides in carousel."
+msgstr "Marginea, în pixeli, între diapozitivele din carusel."
+
+#: ml-slider.php:1465
+msgid "Randomise the order of the slides"
+msgstr "Selecție aleatoare a ordinii diapozitivelor"
+
+#: ml-slider.php:1470
+msgid "Hover pause"
+msgstr "Pauză la trecere peste"
+
+#: ml-slider.php:1473
+msgid "Pause the slideshow when hovering over slider, then resume when no longer hovering."
+msgstr "Oprește caruselul când se trece peste el, apoi reia expunerea când s-a ieșit de pe el."
+
+#: ml-slider.php:1478
+msgid "Reverse"
+msgstr "Invers"
+
+#: ml-slider.php:1481
+msgid "Reverse the animation direction"
+msgstr "Inversează direcția animației"
+
+#: ml-slider.php:1491
+msgid "Slide delay"
+msgstr "Temporizare diapozitiv"
+
+#: ml-slider.php:1493
+msgid "How long to display each slide, in milliseconds"
+msgstr "Cât timp să fie afișat fiecare diapozitiv, în milisecunde"
+
+#: ml-slider.php:1494 ml-slider.php:1507 ml-slider.php:1520 ml-slider.php:1596
+#: ml-slider.php:1622
+msgid "ms"
+msgstr "ms"
+
+#: ml-slider.php:1504
+msgid "Animation speed"
+msgstr "Viteză animație"
+
+#: ml-slider.php:1506
+msgid "Set the speed of animations, in milliseconds"
+msgstr "Setează viteza animațiilor, în milisecunde "
+
+#: ml-slider.php:1517 ml-slider.php:1519
+msgid "Number of slices"
+msgstr "Număr de bucăți"
+
+#: ml-slider.php:1530 ml-slider.php:1532 ml-slider.php:1543 ml-slider.php:1545
+msgid "Number of squares"
+msgstr "Număr de pătrate"
+
+#: ml-slider.php:1551
+msgid "Slide direction"
+msgstr "Direcție diapozitiv"
+
+#: ml-slider.php:1553
+msgid "Select the sliding direction"
+msgstr "Selectează direcția diapozitivului"
+
+#: ml-slider.php:1556
+msgid "Horizontal"
+msgstr "Orizontal"
+
+#: ml-slider.php:1557
+msgid "Vertical"
+msgstr "Vertical"
+
+#: ml-slider.php:1563
+msgid "Easing"
+msgstr "Tranziție"
+
+#: ml-slider.php:1565
+msgid "Animation easing effect"
+msgstr "efectul de tranziție al animației"
+
+#: ml-slider.php:1572
+msgid "Previous text"
+msgstr "Text anterior"
+
+#: ml-slider.php:1574
+msgid "Set the text for the 'previous' direction item"
+msgstr "Setează textul pe direcția 'anterior'"
+
+#: ml-slider.php:1580
+msgid "Next text"
+msgstr "Textul următor"
+
+#: ml-slider.php:1582
+msgid "Set the text for the 'next' direction item"
+msgstr "Setează textul pe direcția 'următor'"
+
+#: ml-slider.php:1593
+msgid "Square delay"
+msgstr "Temporizare pătrat"
+
+#: ml-slider.php:1595
+msgid "Delay between squares in ms"
+msgstr "Temporizare între pătrate, în ms"

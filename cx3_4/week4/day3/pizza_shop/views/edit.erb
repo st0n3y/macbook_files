@@ -1,0 +1,29 @@
+<h1>Update the Pizza</h1>
+
+<form action = "/pizzas/<%= @pizza.id %>" method = "post">
+<input type="hidden" name="_method" value="put"> <!-- Browsers do not support "put", so Sinatra lets us use "_method" to circumvent this -->
+  
+  <label for = "first_name">First name:</label>
+  <input type = "text" name = "first_name" value="<%= @pizza.first_name() %>" />
+
+  <label for = "last_name">Last name:</label>
+  <input type = "text" name = "last_name" value="<%= @pizza.last_name() %>" />
+
+  <label for = "topping">Select a pizza:</label>
+  <select name="topping">
+    <option value = "margherita" <%= "selected" if @pizza.topping == 'margherita' %>>Margherita</option>
+    <option value = "pepperoni" <%= "selected" if @pizza.topping == 'pepperoni' %>>Pepperoni</option>
+  </select>
+
+  <label for = "quantity">Quantity:</label>
+  <input type = "number" name = "quantity" value="<%= @pizza.quantity() %>" />
+
+  <input type = "submit" value = "Update order" />
+
+</form>
+
+<form action = "/pizzas/<%= @pizza.id %>" method = "post">
+<input type = "hidden" name = "_method" value = "delete" />
+  <input type = "submit" value = "Delete pizza" />
+
+</form>

@@ -1,0 +1,15 @@
+Classes can inherit from a superclass.
+
+At top of file: require_relative('class_to_inherit_from.rb')
+
+class ClassToInherit < ClassToInheritFrom
+
+
+Subclass methods take precedence over superclass.
+
+To inherit initialize from superclass in subclass:
+
+def initialize( parameter )
+  @instance_variable = parameter
+  super( superclass_parameter )
+end
